@@ -1,11 +1,12 @@
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
     padding: 20px;
+    height: 100vh;
+    background: linear-gradient(#322626, #432D2B, #51312E, #654335, #6F4E37);
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -20,22 +21,19 @@ body {
   
   h1, h2, p {
     text-align: center;
+    
   }
   
   .menu {
     width: 80%;
-    background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    max-width: 500px;
+    max-width: 600px;
+    border: 2px solid white;
+    border-radius: 100px;
   }
   
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
   
   hr {
     height: 2px;
@@ -71,25 +69,19 @@ body {
   /* FOOTER */
   
   footer {
-    font-size: 14px;
+    font-size: 20px;
   }
   
   .address {
     margin-bottom: 5px;
   }
   
-  a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color: brown;
-  }
-  
-  a:active {
-    color: brown;
-  }
+ 
+
+
+img {
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid burlywood;
+}
+
